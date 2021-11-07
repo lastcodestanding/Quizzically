@@ -10,6 +10,8 @@ There are three main modules:
     
     Dependencies - openCV, numpy
     
+    Steps to run:
+    Delete tempfile from dataset/
     Run detect.py first to store 100 each images of subjects
     Run training.py to train models for facial recognition
     Run recog.py to detect faces.
@@ -20,6 +22,7 @@ There are three main modules:
     
     Dependencies - openCV, tensorflow, keras, pandas, numpy
     
+    Steps to run:
     Unzip dataset.zip into folder 'dataset'
     run trainer.py to generate new model, or use pretrained model.h5
     run videoEmot.py to run sentiment analysis.
@@ -30,4 +33,5 @@ There are three main modules:
     
     Dependencies - pyaudio, speech-recognition, threading
     
+    Steps to run:
     Run voice.py to start recording and transcription.
